@@ -76,7 +76,9 @@
 <li>必须使用 var 声明变量</li>
 <li>禁止自定义的函数中的 this 指向 window</li>
 </ul>
-<pre><code class="language-javascript">'use strict'
+<pre><code class="language-javascript">
+
+'use strict'
 function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -205,6 +207,7 @@ console.log(obj.fullName);
 </code></pre>
 <p><strong>这两种写法不同但是结果是完全相同的。</strong></p>
 <h3 id="14-array-扩展">1.4 Array 扩展</h3>
+<!-- more -->
 <p>Array.prototype.indexOf(value)：得到值在数组中的第一个下标</p>
 <p>Array.prototype.lastIndexOf(value)：得到值在数组中的最后一个下标</p>
 <p>Array.prototype.forEach(function(item, index) {})：遍历数组</p>
@@ -348,6 +351,8 @@ const student = {
     age: age,
     city: city,
       getName: function() {
+&lt;!-- more --&gt;
+
       return this.name;
     }
 };
