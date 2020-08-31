@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://alfy20.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-31T06:19:48.491Z</updated>
+    <updated>2020-08-31T06:38:29.986Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://alfy20.github.io"/>
     <link rel="self" href="http://alfy20.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="http://alfy20.github.io/post/es5es6es7-bi-ji/">
         </link>
         <updated>2020-08-31T06:18:38.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="es5-6-7">ES5、6、7</h1>
+        <content type="html"><![CDATA[<p><img src="http://alfy20.github.io/post-images/1598855801819.webp" alt="" loading="lazy"># ES5、6、7</p>
 <p>ES的几个重要版本</p>
 <ul>
 <li>ES5：09年发布</li>
